@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" errors="0" time="0.674">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-08T00:42:48" time="0.573" tests="9">
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="0.921">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-08T01:05:49" time="0.766" tests="9">
     <testcase classname=" adds 2 + 3 to equal 5" name=" adds 2 + 3 to equal 5" time="0.004">
     </testcase>
     <testcase classname=" adds 2 + 3 to not equal 4" name=" adds 2 + 3 to not equal 4" time="0.001">
     </testcase>
-    <testcase classname=" subtracts 7 - 3 to equal 4" name=" subtracts 7 - 3 to equal 4" time="0">
+    <testcase classname=" subtracts 7 - 3 to equal 4" name=" subtracts 7 - 3 to equal 4" time="0.001">
     </testcase>
     <testcase classname=" subtracts 7 - 3 to not equal 5" name=" subtracts 7 - 3 to not equal 5" time="0.001">
     </testcase>
     <testcase classname=" divides 10 / 2 to equal 5" name=" divides 10 / 2 to equal 5" time="0.001">
     </testcase>
-    <testcase classname=" divides 10 / 2 to not equal 4" name=" divides 10 / 2 to not equal 4" time="0">
+    <testcase classname=" divides 10 / 2 to not equal 4" name=" divides 10 / 2 to not equal 4" time="0.001">
     </testcase>
     <testcase classname=" divides 7 / 2 to equal 3.5" name=" divides 7 / 2 to equal 3.5" time="0">
     </testcase>
-    <testcase classname=" divides -6 / 3 to equal -2" name=" divides -6 / 3 to equal -2" time="0.001">
+    <testcase classname=" divides -6 / 3 to equal -2" name=" divides -6 / 3 to equal -2" time="0">
     </testcase>
-    <testcase classname=" divides by zero to throw error" name=" divides by zero to throw error" time="0.01">
+    <testcase classname=" divides by zero to throw error" name=" divides by zero to throw error" time="0.012">
     </testcase>
   </testsuite>
 </testsuites>
