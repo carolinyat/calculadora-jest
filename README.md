@@ -30,7 +30,7 @@ cd calculadora-jest
 
 3. Instale as dependências:
 ```
-npm install
+npm install --save-dev jest
 ```
 
 ## Executando os Testes
