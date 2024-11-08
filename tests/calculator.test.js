@@ -20,7 +20,6 @@ test('subtracts 7 - 3 to not equal 5', () => {
     expect(subtract(7, 3)).not.toBe(5);
 });
 
-
 // Teste da função de divisão
 test('divides 10 / 2 to equal 5', () => {
     expect(divide(10, 2)).toBe(5);
