@@ -31,6 +31,7 @@ cd calculadora-jest
 3. Instale as dependências:
 ```
 npm install --save-dev jest
+npm install prompt-sync
 ```
 
 ## Executando os Testes
