@@ -14,6 +14,7 @@
     "jest-junit": "^16.0.0"
   },
   "dependencies": {
-    "calculadora-jest": "file:"
+    "calculadora-jest": "file:",
+    "prompt-sync": "^4.2.0"
   }
 }
