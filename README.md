@@ -34,6 +34,13 @@ npm install --save-dev jest
 npm install prompt-sync
 ```
 
+## Executando a calculadora CLI 
+
+Para iniciar a calculadora no terminal, execute:
+```
+node calculatorCLI.js
+```
+
 ## Executando os Testes
 Os testes foram escritos com o Jest e cobrem cada uma das operações da calculadora. Para rodar os testes, use o seguinte comando:
 
