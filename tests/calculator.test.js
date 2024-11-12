@@ -1,4 +1,4 @@
-const { add, subtract, divide } = require("../src/calculator");
+const { add, subtract, divide, multiply } = require("../src/calculator");
 
 // Teste da função de adição
 test("adds 2 + 3 to equal 5", () => {
@@ -15,6 +15,14 @@ test("subtracts 7 - 3 to equal 4", () => {
   expect(subtract(7, 3)).toBe(4);
 });
 
+test("subtracts -5 - 3 to equal -8", () => {
+  expect(subtract(-5, 3)).toBe(-8);
+});
+
+test("subtracts 5 - (-3) to equal 8", () => {
+  expect(subtract(5, -3)).toBe(8);
+});
+
 // Falha da função de subtração
 test("subtracts 7 - 3 to not equal 5", () => {
   expect(subtract(7, 3)).not.toBe(5);
@@ -25,9 +33,25 @@ test("divides 10 / 2 to equal 5", () => {
   expect(divide(10, 2)).toBe(5);
 });
 
-// Teste da função de multiplicação
+// Testes da função de multiplicação
 test("multiplies 4 * 3 to equal 12", () => {
   expect(multiply(4, 3)).toBe(12);
+});
+
+test("multiplies -4 * 3 to equal -12", () => {
+  expect(multiply(-4, 3)).toBe(-12);
+});
+
+test("multiplies 0 * 5 to equal 0", () => {
+  expect(multiply(0, 5)).toBe(0);
+});
+
+test("multiplies -5 * -3 to equal 15", () => {
+  expect(multiply(-5, -3)).toBe(15);
+});
+
+test("multiplies 2.5 * 4 to equal 10", () => {
+  expect(multiply(2.5, 4)).toBe(10);
 });
 
 // Teste da falha da função de divisão
