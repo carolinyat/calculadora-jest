@@ -38,3 +38,6 @@ jobs:
         with:
           name: jest-test-report
           path: test-results/junit.xml
+
+  Notify:
+    runs-on: ubuntu-latest
