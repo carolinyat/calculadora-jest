@@ -1,6 +1,6 @@
 ﻿# calculadora-jest
 
-Este é um projeto de uma calculadora simples com testes unitários utilizando o framework Jest. Este projeto foi criado para fins educacionais e serve como exemplo de como configurar e testar uma aplicação JavaScript utilizando Jest.
+Este é um projeto de uma calculadora simples com testes unitários utilizando o framework Jest. Este projeto foi criado para fins educacionais, servindo como exemplo de como configurar e testar uma aplicação JavaScript utilizando Jest.
 
 ## Funcionalidades
 
